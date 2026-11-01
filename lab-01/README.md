@@ -1,6 +1,6 @@
 # Lab 1: Node.js and Express Server
 
-**Live Link:** Deployment Pending
+**Live Link:** [https://lab-01-node-express-rf65.onrender.com](https://lab-01-node-express-rf65.onrender.com)
 
 **Name:** B. Vijay Nadha Reddy
 
@@ -189,22 +189,7 @@ This application is fully prepared for deployment on **Render**:
 - **Start Command:** `node server.js`
 - **Instance Type:** Free
 - **Port Binding:** Configured dynamically via `const PORT = process.env.PORT || 3000;`
+- **Live URL:** [https://lab-01-node-express-rf65.onrender.com](https://lab-01-node-express-rf65.onrender.com)
 
-### Steps to Deploy:
-1. Create a public repository on GitHub and push the code:
-   ```bash
-   git add lab-01
-   git commit -m "Complete Lab 1 Node.js and Express server"
-   git push origin main
-   ```
-2. Log into [Render Dashboard](https://dashboard.render.com/).
-3. Click **New +** -> **Web Service**.
-4. Connect your GitHub repository.
-5. In service settings, configure:
-   - **Root Directory:** `lab-01`
-   - **Runtime:** `Node`
-   - **Build Command:** `npm install`
-   - **Start Command:** `node server.js`
-   - **Plan:** Free
-6. Click **Deploy Web Service**.
-7. Once deployment finishes successfully, copy your live Render URL (e.g. `https://lab-01-xxxx.onrender.com`) and update the **Live Link** at the top of this `README.md`.
+### Status:
+- Successfully deployed on Render and verified operational. All endpoints (`/`, `/about`, `/time`, and catch-all 404) are responding with proper HTTP status codes.

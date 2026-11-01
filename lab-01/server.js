@@ -84,7 +84,7 @@ app.use((req, res) => {
 // ==========================================
 // Start Express Server
 // ==========================================
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`[Task 4] Express server running on port ${PORT}`);
     console.log(`Access locally at: http://localhost:${PORT}/`);
 });
